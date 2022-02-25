@@ -21,7 +21,6 @@ header::after {
 
 .logo {
     float: left;
-    
 }
 
 h1 {
@@ -43,4 +42,14 @@ nav li {
     margin-left: 60px;
     padding-top: 25px;
     font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: gray;
 }
