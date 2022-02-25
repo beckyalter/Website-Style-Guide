@@ -21,8 +21,7 @@ header::after {
 
 .logo {
     float: left;
-    font-size: 14px;
-    font-weight: bold;
+    
 }
 
 h1 {
@@ -37,4 +36,11 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 25px;
+    font-size: larger;
 }
