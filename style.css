@@ -1,24 +1,40 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     padding: opx;
 }
 
-.nav {
-    background-color: white;
-    color: black;
-    list-style: none;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.nav.li {
-display: inline-block;
+header {
+    background: teal;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .logo {
-    font-size: 16px;
+    float: left;
+    font-size: 14px;
     font-weight: bold;
+}
+
+h1 {
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
