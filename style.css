@@ -58,7 +58,7 @@ h2 {
     margin-top: 50px;
     margin-left: 100px;
     padding-top: 20px;
-    color: white;
+    color: black;
     font-weight: bolder;
 }
 
@@ -99,11 +99,55 @@ table {
 }
 
 .font-box {
-    background: rgb(204, 195, 195);
+    background: white;
     padding-bottom: 50px;
 }
 
 .font-box th, tr, td {
-    border: 1px solid white;
+    border: 1px solid #FF4F1F;
     padding: 25px;
+    font-size: larger;
+    background-color: white;
+    color: black
+}
+
+#Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+#mon-300 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+}
+
+#mon-700 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#pop-400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+#pop-300-italic {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.text-box {
+    background: rgb(204, 195, 195);
+    padding-bottom: 50px;
+}
+
+#H1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-styles {
+    border: 1px solid black;
+    width: 800px;
+    margin: 0 auto;
 }
